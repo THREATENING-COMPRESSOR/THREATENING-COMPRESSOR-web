@@ -128,3 +128,27 @@ max-height: 34rem;
 .product-rating {
 margin-bottom: 1rem;
 }
+
+/* order screen */
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content-margined {
+  margin: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Added for better spacing between cells */
+}
+
+th {
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) { /* Corrected the selector to target tbody and odd rows */
+  background-color: #f0f0f0;
+}
