@@ -44,7 +44,7 @@ function Products() {
                 
                 {/* refers to api db info */}
                 {products.map((product) => (
-                    <li>
+                    <li key={product.id}>
                     <div className="product">
                         <img
                             className="product-image"
