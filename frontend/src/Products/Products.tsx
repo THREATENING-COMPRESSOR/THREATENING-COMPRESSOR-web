@@ -28,7 +28,7 @@ function Products() {
     useEffect(() => {
         
         // We are feeding the HTTP Response Body- response.data- into our setProducts function from our state hook.
-        axios.get<Product[]>("http://localhost:5283/catalog",
+        axios.get<Product[]>("https://tc-api.azurewebsites.net/catalog",
             {
                 headers: {
                     "Content-Type": "application/json",
